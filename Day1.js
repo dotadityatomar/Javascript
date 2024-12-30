@@ -30,6 +30,12 @@ console.log(2*"heloo");*/
 //spider monkey engine ==> firefox
 //Chakra engine ==> Internet Explorer
 //prompt('How are you') //  It open an dialog box with blank filed in browser  basicaly it use to ask question.
-function aditya(str1,str2,operation){
+
+//----IF else condition with project-----//
+const userAnswer = prompt("How much money you spent on grocery?");
+if(userAnswer>1000){
+    alert('Congratulation!');
+    alert('Total discount:' +(userAnswer-userAnswer*0.1));
 
 }
+console.log(userAnswer);
