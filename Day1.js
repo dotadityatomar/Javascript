@@ -32,10 +32,41 @@ console.log(2*"heloo");*/
 //prompt('How are you') //  It open an dialog box with blank filed in browser  basicaly it use to ask question.
 
 //----IF else condition with project-----//
-const userAnswer = prompt("How much money you spent on grocery?");
+/*const userAnswer = prompt("How much money you spent on grocery?");
 if(userAnswer>1000){
     alert('Congratulation!');
     alert('Total discount:' +(userAnswer-userAnswer*0.1));
 
 }
-console.log(userAnswer);
+*/
+
+//--- Array--//
+/*let arr=[
+    1, 
+    true, false, 
+    {firstName:'Aditya'},
+    "how are you",,,
+    null,
+    undefined,
+    ()=>{
+        console.log('This is a function');
+    }
+];
+console.log(arr)*/
+/* OUTPUT--[
+    1,
+    true,
+    false,
+    { firstName: 'Aditya' },
+    'how are you',
+    <2 empty items>,
+    null,
+    undefined,
+    [Function (anonymous)]
+  ]*/
+const arr=[];
+arr[0]=34;
+arr[6]=true;
+arr[9]=65;
+console.log(arr)
+
